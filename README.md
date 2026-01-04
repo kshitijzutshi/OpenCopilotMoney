@@ -5,7 +5,7 @@
  <img width="1440" alt="dashboard_mockup" src="https://github.com/projectx-codehagen/Badget/assets/24507211/2c2b8e43-3d18-4b28-b8d0-5dc0cbdb530f">
 
 <p align="center">
-  Ushering in a new era of financial management with cutting-edge AI. Badget redefines how you track, analyze, and optimize your finances, ensuring smarter, more secure financial decisions.
+  Ushering in a new era of financial management with cutting-edge AI. Badget redefines how you track, analyze, and optimize your finances, ensuring smarter, more secure financial decisions. 
 </p>
 
 <p align="center">

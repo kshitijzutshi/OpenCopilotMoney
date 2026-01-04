@@ -1,10 +1,11 @@
-import { ThemeProvider } from "@/components/theme-provider";
-import { CommandMenu } from "@/components/dialog/command-menu";
+// Polyfill localStorage for Node.js 22+ SSR compatibility
+import "@/lib/localStorage-polyfill";
+
+import ClientProviders from "@/components/client-providers";
 import { constructMetadata } from "@/lib/construct-metadata";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,24 +33,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      {/* <head>
-        <Script src="https://unpkg.com/react-scan/dist/auto.global.js" />
-      </head> */}
-
+    <html lang="en" suppressHydrationWarning className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans bg-background`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-          <Toaster />
-          <CommandMenu />
-        </ThemeProvider>
+        <ClientProviders>{children}</ClientProviders>
       </body>
     </html>
   );

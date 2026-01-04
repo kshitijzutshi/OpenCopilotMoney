@@ -128,11 +128,118 @@ pnpm db:generate
 pnpm db:push
 ``` 
 
-1. Start the development server:
+6. Start the development server:
 ```bash
 # Start the development server with Turbopack
 pnpm dev
 ```
+
+## Local Development Setup (Without Docker)
+
+For local development without Docker or cloud services, follow these steps:
+
+### Prerequisites
+
+- **Node.js 18+** 
+- **pnpm** (`npm install -g pnpm`)
+- **PostgreSQL 14+** installed locally
+
+### Step 1: Install PostgreSQL Locally
+
+**macOS (Homebrew):**
+```bash
+brew install postgresql@15
+brew services start postgresql@15
+```
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo systemctl start postgresql
+```
+
+**Windows:**
+Download and install from [postgresql.org](https://www.postgresql.org/download/windows/)
+
+### Step 2: Create the Database
+
+```bash
+# Create the badget database
+createdb badget
+
+# Or using psql
+psql -c "CREATE DATABASE badget;"
+```
+
+### Step 3: Configure Environment
+
+Create a `.env` file (Prisma reads from `.env`, not `.env.local`):
+
+```bash
+# Database - Local PostgreSQL (include your username)
+DATABASE_URL="postgresql://YOUR_USERNAME@localhost:5432/badget"
+
+# Application URL
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
+# Better-Auth Secret (use any random string for local dev)
+BETTER_AUTH_SECRET="local-development-secret-key-change-in-production"
+
+# Google OAuth - Placeholders (email/password auth still works without these)
+GOOGLE_CLIENT_ID="placeholder-google-client-id"
+GOOGLE_CLIENT_SECRET="placeholder-google-client-secret"
+```
+
+Replace `YOUR_USERNAME` with your system username (run `whoami` to find it).
+
+### Step 4: Install Dependencies and Setup Database
+
+```bash
+# Install dependencies
+pnpm install
+
+# Generate Prisma client
+pnpm db:generate
+
+# Push schema to database
+pnpm db:push
+```
+
+### Step 5: Start Development Server
+
+```bash
+pnpm dev
+```
+
+The app will be available at `http://localhost:3000`
+
+### Bypassing Authentication and Waitlist (Local Dev Only)
+
+For local testing, both authentication and the waitlist are bypassed:
+- Clicking "Get Started" or "Try for free" goes directly to the dashboard
+- No sign-in is required to access the dashboard
+
+**To re-enable for production:**
+
+1. **Re-enable Authentication:**
+   In `src/middleware.ts`, set `BYPASS_AUTH_FOR_LOCAL_DEV = false`
+
+2. **Re-enable Waitlist:**
+   Search for `TODO: Change back to "/waitlist"` in the codebase and update the links:
+   - `src/lib/config.tsx` - Hero CTA and footer links
+   - `src/components/sections/navbar.tsx` - Navigation buttons
+
+### Troubleshooting
+
+**"Error: P1010: User was denied access"**
+- Ensure your `DATABASE_URL` includes your username: `postgresql://yourusername@localhost:5432/badget`
+
+**"psql: command not found"**
+- PostgreSQL is not installed or not in PATH. Install via Homebrew/apt or add to PATH.
+
+**"localStorage.getItem is not a function"**
+- This can happen with Node.js v25's experimental localStorage. The app includes a polyfill to handle this.
 
 ## Tech Stack + Features
 

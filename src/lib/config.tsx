@@ -1,3 +1,5 @@
+"use client";
+
 import { FirstBentoAnimation } from "@/components/first-bento-animation";
 import { FourthBentoAnimation } from "@/components/fourth-bento-animation";
 import { SecondBentoAnimation } from "@/components/second-bento-animation";
@@ -78,12 +80,13 @@ export const siteConfig = {
       "Badget turns raw transactions into real-time spending insights, predictive budgets, and a holistic financial health score. Spend smarter, save faster.",
     cta: {
       primary: {
-        text: "Join Waitlist",
-        href: "/waitlist",
+        // TODO: Change back to "/waitlist" when ready for production
+        text: "Get Started",
+        href: "/dashboard",
       },
       secondary: {
         text: "Log in",
-        href: "/waitlist",
+        href: "/sign-in",
       },
     },
   },
@@ -620,8 +623,9 @@ export const siteConfig = {
     description:
       "Join thousands of users who have improved their financial health with AI-powered insights and predictive budgeting.",
     primaryButton: {
+      // TODO: Change back to "/waitlist" when ready for production
       text: "Start Your Free Journey",
-      href: "/waitlist",
+      href: "/dashboard",
     },
     secondaryButton: {
       text: "Talk to Founder",
@@ -952,28 +956,29 @@ export const siteConfig = {
     {
       title: "Company",
       links: [
-        { id: 1, title: "About", url: "/waitlist" },
-        { id: 2, title: "Contact", url: "/waitlist" },
-        { id: 3, title: "Blog", url: "/waitlist" },
-        { id: 4, title: "Story", url: "/waitlist" },
+        // TODO: Update these back to "/waitlist" when ready for production
+        { id: 1, title: "About", url: "/about" },
+        { id: 2, title: "Contact", url: "/contact" },
+        { id: 3, title: "Blog", url: "/blog" },
+        { id: 4, title: "Story", url: "/about" },
       ],
     },
     {
       title: "Products",
       links: [
-        { id: 5, title: "Company", url: "/waitlist" },
-        { id: 6, title: "Product", url: "/waitlist" },
+        { id: 5, title: "Dashboard", url: "/dashboard" },
+        { id: 6, title: "Features", url: "/#features" },
         { id: 7, title: "Open Startup", url: "/open" },
-        { id: 8, title: "More", url: "/waitlist" },
+        { id: 8, title: "Community", url: "/community" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { id: 9, title: "Press", url: "/waitlist" },
-        { id: 10, title: "Careers", url: "/waitlist" },
-        { id: 11, title: "Newsletters", url: "/waitlist" },
-        { id: 12, title: "More", url: "/waitlist" },
+        { id: 9, title: "Help", url: "/help" },
+        { id: 10, title: "Privacy", url: "/legal/privacy" },
+        { id: 11, title: "Terms", url: "/legal/terms" },
+        { id: 12, title: "Sign In", url: "/sign-in" },
       ],
     },
   ],

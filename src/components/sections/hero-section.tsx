@@ -1,3 +1,5 @@
+"use client";
+
 import { HeroVideoSection } from "@/components/sections/hero-video-section";
 import { siteConfig } from "@/lib/config";
 import Link from "next/link";

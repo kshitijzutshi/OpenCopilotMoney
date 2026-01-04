@@ -1,4 +1,4 @@
-import { siteConfig } from "@/lib/config";
+import { siteMetadata } from "@/lib/site-metadata";
 import { Button } from "@/components/ui/button";
 import { Mail, MessageCircle, HelpCircle, Github } from "lucide-react";
 import Link from "next/link";
@@ -37,7 +37,7 @@ export default function ContactPage() {
                 </p>
               </div>
               <Button asChild className="w-fit">
-                <a href={`mailto:${siteConfig.links.email}`}>Get support</a>
+                <a href={`mailto:${siteMetadata.links.email}`}>Get support</a>
               </Button>
             </div>
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
                 </p>
               </div>
               <Button asChild className="w-fit">
-                <a href={`mailto:${siteConfig.links.email}?subject=Feedback`}>
+                <a href={`mailto:${siteMetadata.links.email}?subject=Feedback`}>
                   Send Feedback
                 </a>
               </Button>
@@ -90,7 +90,7 @@ export default function ContactPage() {
               </div>
               <Button asChild className="w-fit" variant="outline">
                 <a
-                  href={siteConfig.links.github}
+                  href={siteMetadata.links.github}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -107,17 +107,17 @@ export default function ContactPage() {
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <a
-                  href={`mailto:${siteConfig.links.email}`}
+                  href={`mailto:${siteMetadata.links.email}`}
                   className="hover:text-primary transition-colors"
                 >
-                  {siteConfig.links.email}
+                  {siteMetadata.links.email}
                 </a>
               </div>
               <div className="hidden sm:block w-px h-4 bg-border" />
               <div className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4" />
                 <a
-                  href={siteConfig.links.twitter}
+                  href={siteMetadata.links.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"

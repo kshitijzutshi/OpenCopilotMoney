@@ -22,6 +22,7 @@
   <a href="#installation"><strong>Installation</strong></a> ·
   <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
   <a href="#architecture"><strong>Architecture</strong></a> ·
+  <a href="./DEVELOPER_GUIDE.md"><strong>Developer Guide</strong></a> ·
   <a href="#contributing"><strong>Contributing</strong></a>
 </p>
 <br/>
@@ -278,12 +279,24 @@ For local testing, both authentication and the waitlist are bypassed:
 
 We love our contributors! Here's how you can contribute:
 
-- [Open an issue](https://github.com/codehagen/badget/issues) if you believe you've encountered a bug.
-- Make a [pull request](https://github.com/codehagen/badget/pull) to add new features/make quality-of-life improvements/fix bugs.
+- [Open an issue](https://github.com/kshitijzutshi/OpenCopilotMoney/issues) if you believe you've encountered a bug.
+- Make a [pull request](https://github.com/kshitijzutshi/OpenCopilotMoney/pulls) to add new features/make quality-of-life improvements/fix bugs.
 
-<a href="https://github.com/codehagen/badget/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=codehagen/badget" />
+<a href="https://github.com/kshitijzutshi/OpenCopilotMoney/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kshitijzutshi/OpenCopilotMoney" />
 </a>
+
+## Developer Guide
+
+For a comprehensive guide to understanding the codebase, including:
+- **Architecture deep-dive** - Dual-layer authentication/application pattern
+- **Data flow patterns** - How data moves from database to UI
+- **Code paths** - Step-by-step walkthroughs of key features
+- **Adding new features** - Templates and best practices
+- **Server action patterns** - Multi-tenant data access
+- **Component patterns** - Async components with Suspense
+
+📚 **See [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md)** for the full guide.
 
 ## Repo Activity
 

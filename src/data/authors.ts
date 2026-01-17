@@ -1,22 +1,22 @@
 import { Author } from "@/types/author";
 
 export const authors: Record<string, Author> = {
-  christerhagen: {
-    id: "christerhagen",
-    name: "Christer Hagen",
+  kshitijzutshi: {
+    id: "kshitijzutshi",
+    name: "Kshitij Zutshi",
     defaultTitle: "Founder & CEO",
-    image: "/avatars/christer.jpg",
-    bio: "Founder of Badget, passionate about building tools that help people manage their digital life more effectively.",
-    twitter: "christerhagen",
-    linkedin: "christerhagen",
+    image: "/avatars/kshitij.jpg",
+    bio: "Founder of OpenCopilotMoney, passionate about building tools that help people manage their digital life more effectively.",
+    twitter: "kshitijzutshi",
+    linkedin: "kshitijzutshi",
   },
-  "badget-team": {
-    id: "badget-team",
-    name: "Badget Team",
+  "opencopilotmoney-team": {
+    id: "opencopilotmoney-team",
+    name: "OpenCopilotMoney Team",
     defaultTitle: "Product Team",
     image: "/avatars/team.jpg",
-    bio: "The official Badget team account. Building the future of link management with AI-powered insights.",
-    twitter: "badgetapp",
+    bio: "The official OpenCopilotMoney team account. Building the future of personal finance with AI-powered insights.",
+    twitter: "opencopilotmoney",
   },
   "sarah-johnson": {
     id: "sarah-johnson",

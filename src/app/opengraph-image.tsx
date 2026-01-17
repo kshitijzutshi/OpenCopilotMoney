@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 
 // Configuration exports
 export const runtime = "edge";
-export const alt = "Badget - AI-powered personal finance app";
+export const alt = "OpenCopilotMoney - AI-powered personal finance app";
 export const size = {
   width: 1200,
   height: 630,

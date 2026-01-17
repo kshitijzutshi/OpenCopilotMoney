@@ -1,7 +1,7 @@
 "use server";
 
 /**
- * USER ACTIONS FOR MULTI-TENANT BADGET APPLICATION
+ * USER ACTIONS FOR MULTI-TENANT OPENCOPILOTMONEY APPLICATION
  * ================================================
  *
  * This file contains server actions for managing users in a multi-tenant financial management application.

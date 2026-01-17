@@ -1,5 +1,5 @@
 /**
- * TRANSACTIONS PAGE FOR BADGET FINANCIAL MANAGEMENT
+ * TRANSACTIONS PAGE FOR OPENCOPILOTMONEY FINANCIAL MANAGEMENT
  * =================================================
  *
  * This is the main transactions page that displays all financial transactions

@@ -59,7 +59,7 @@ export async function generateMetadata({
 
   return constructMetadata({
     title: `${categoryDisplay} - Help Center`,
-    description: `Browse all ${categoryDisplay.toLowerCase()} documentation and guides from the Badget team.`,
+    description: `Browse all ${categoryDisplay.toLowerCase()} documentation and guides from the OpenCopilotMoney team.`,
   });
 }
 
@@ -105,7 +105,7 @@ export default async function HelpCategoryPage({
             {categoryDisplay}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Browse all {categoryDisplay.toLowerCase()} documentation and guides from the Badget team.
+            Browse all {categoryDisplay.toLowerCase()} documentation and guides from the OpenCopilotMoney team.
           </p>
           <div className="mt-4">
             <Badge variant="secondary" className="text-sm px-3 py-1">

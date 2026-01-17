@@ -41,7 +41,7 @@ const HELP_CATEGORIES: HelpCategory[] = [
     id: "getting-started",
     title: "Getting Started",
     description:
-      "Basic guides and tutorials to help you get up and running with Badget.",
+      "Basic guides and tutorials to help you get up and running with OpenCopilotMoney.",
     icon: IconBook,
     tags: ["tutorial", "basics", "setup"],
     color: "bg-purple-500/10 text-purple-600 border-purple-200",

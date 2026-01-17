@@ -1,7 +1,7 @@
 "use server";
 
 /**
- * DASHBOARD ACTIONS FOR BADGET FINANCIAL MANAGEMENT
+ * DASHBOARD ACTIONS FOR OPENCOPILOTMONEY FINANCIAL MANAGEMENT
  * =================================================
  *
  * This file contains server actions for the dashboard components of a multi-tenant
@@ -155,11 +155,11 @@ export async function getAllTransactions(
       ...(categoryId && { categoryId }),
       ...(startDate &&
         endDate && {
-          date: {
-            gte: startDate,
-            lte: endDate,
-          },
-        }),
+        date: {
+          gte: startDate,
+          lte: endDate,
+        },
+      }),
     };
 
     // Handle uncategorized filter
@@ -285,11 +285,11 @@ export async function getTransactions(options: GetTransactionsOptions = {}) {
         ...(categoryId && { categoryId }),
         ...(startDate &&
           endDate && {
-            date: {
-              gte: startDate,
-              lte: endDate,
-            },
-          }),
+          date: {
+            gte: startDate,
+            lte: endDate,
+          },
+        }),
       },
       include: {
         account: {
@@ -959,7 +959,7 @@ export async function seedUserData(resetFirst: boolean = false) {
               categoryId:
                 Math.random() > 0.1
                   ? createdCategories.find((c) => c.name === expense.category)
-                      ?.id
+                    ?.id
                   : null,
               isReconciled: Math.random() > 0.05,
             });
@@ -989,8 +989,8 @@ export async function seedUserData(resetFirst: boolean = false) {
             categoryId:
               Math.random() > 0.2
                 ? createdCategories.find(
-                    (c) => c.name === randomExpense.category
-                  )?.id
+                  (c) => c.name === randomExpense.category
+                )?.id
                 : null,
             isReconciled: Math.random() > 0.1,
           });

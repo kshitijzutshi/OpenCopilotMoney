@@ -60,7 +60,7 @@ export async function generateMetadata({
 
   return constructMetadata({
     title: `${categoryDisplay} - Blog`,
-    description: `Browse all ${categoryDisplay.toLowerCase()} articles and tutorials from the Badget team.`,
+    description: `Browse all ${categoryDisplay.toLowerCase()} articles and tutorials from the OpenCopilotMoney team.`,
   });
 }
 
@@ -106,7 +106,7 @@ export default async function CategoryPage({
             {categoryDisplay}
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Browse all {categoryDisplay.toLowerCase()} articles and tutorials from the Badget team.
+            Browse all {categoryDisplay.toLowerCase()} articles and tutorials from the OpenCopilotMoney team.
           </p>
           <div className="mt-4">
             <Badge variant="secondary" className="text-sm px-3 py-1">

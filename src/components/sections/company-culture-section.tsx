@@ -62,7 +62,7 @@ export function CompanyCultureSection() {
 
         <SectionHeader>
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-center text-balance pb-1">
-            Life at Badget
+            Life at OpenCopilotMoney
           </h2>
           <p className="text-muted-foreground text-center text-balance font-medium">
             We&apos;re builders from all corners of the world who come together

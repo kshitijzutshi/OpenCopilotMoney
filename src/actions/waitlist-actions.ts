@@ -1,7 +1,7 @@
 "use server";
 
 /**
- * WAITLIST ACTIONS FOR BADGET APPLICATION
+ * WAITLIST ACTIONS FOR OPENCOPILOTMONEY APPLICATION
  * =======================================
  *
  * This file contains server actions for managing the waitlist functionality.

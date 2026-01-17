@@ -49,7 +49,7 @@ export async function createLinkToken() {
 
     const request: LinkTokenCreateRequest = {
       products: [Products.Transactions],
-      client_name: "Badget",
+      client_name: "OpenCopilotMoney",
       country_codes: [CountryCode.Us],
       language: "en",
       user: {

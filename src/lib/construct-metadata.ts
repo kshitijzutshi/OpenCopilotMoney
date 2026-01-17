@@ -3,14 +3,14 @@ import { siteMetadata } from "./site-metadata";
 
 export const HOME_DOMAIN =
   process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
-    ? "https://badget.tech"
+    ? "https://opencopilotmoney.tech"
     : process.env.NEXT_PUBLIC_VERCEL_ENV === "preview"
       ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
       : "http://localhost:3000";
 
 export const APP_HOSTNAMES = new Set([
-  "badget.tech",
-  "preview.badget.tech",
+  "opencopilotmoney.tech",
+  "preview.opencopilotmoney.tech",
   "localhost:8888",
   "localhost:3000",
   "localhost",
@@ -48,7 +48,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@badget",
+      creator: "@opencopilotmoney",
     },
     icons,
     metadataBase: new URL(HOME_DOMAIN),

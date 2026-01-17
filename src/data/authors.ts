@@ -23,7 +23,7 @@ export const authors: Record<string, Author> = {
     name: "Sarah Johnson",
     defaultTitle: "Product Manager",
     image: "/avatars/sarah.jpg",
-    bio: "Product Manager at Badget with 8+ years in analytics and data visualization. Passionate about turning data into actionable insights.",
+    bio: "Product Manager at OpenCopilotMoney with 8+ years in analytics and data visualization. Passionate about turning data into actionable insights.",
     twitter: "sarahjdev",
   },
 };

@@ -16,7 +16,7 @@ export default function CommunityPage() {
           {/* Header */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-              Join the Badget Community
+              Join the OpenCopilotMoney Community
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Connect with us and other users through our social channels. Get
@@ -56,7 +56,7 @@ export default function CommunityPage() {
                 <h3 className="text-xl font-semibold mb-3">Open Source</h3>
                 <p className="text-muted-foreground mb-8">
                   Contribute to our codebase, report issues, or explore how
-                  Badget is built. We welcome all contributions!
+                  OpenCopilotMoney is built. We welcome all contributions!
                 </p>
               </div>
               <Button asChild className="w-fit" variant="outline">
@@ -75,7 +75,7 @@ export default function CommunityPage() {
                 <h3 className="text-xl font-semibold mb-3">Twitter Updates</h3>
                 <p className="text-muted-foreground mb-8">
                   Follow us for product updates, financial tips, and
-                  behind-the-scenes content from the Badget team.
+                  behind-the-scenes content from the OpenCopilotMoney team.
                 </p>
               </div>
               <Button asChild className="w-fit" variant="outline">
@@ -109,7 +109,7 @@ export default function CommunityPage() {
           <div className="text-center space-y-4 pt-8 border-t border-border">
             <h2 className="text-lg font-medium">Stay Connected</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We&apos;re building Badget in the open and love hearing from our
+              We&apos;re building OpenCopilotMoney in the open and love hearing from our
               community. Whether you have questions, feedback, or just want to
               say hello, we&apos;re here to help!
             </p>

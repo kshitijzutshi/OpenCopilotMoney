@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = constructMetadata({
-  title: "Badget - Makes you save money",
+  title: "OpenCopilotMoney - Makes you save money",
   description:
     "Empower your financial management with AI-driven insights making tracking and optimizing your finances effortless.",
 });

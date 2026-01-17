@@ -1,6 +1,6 @@
 # Plaid Integration Setup Guide
 
-This guide explains how to set up and use the Plaid integration for importing bank transactions and connecting financial accounts to OpenCopilotMoney.
+This guide explains how to set up and use the Plaid integration for importing bank transactions and connecting financial accounts.
 
 ## Prerequisites
 

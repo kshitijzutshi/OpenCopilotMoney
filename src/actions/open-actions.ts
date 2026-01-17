@@ -10,7 +10,7 @@ export interface GitHubStats {
 export async function getGitHubStats(): Promise<GitHubStats> {
   try {
     // Replace 'username/repo' with your actual GitHub repository
-    const repoUrl = "https://api.github.com/repos/kshitijzutshi/OpenCopilotMoney";
+    const repoUrl = "https://api.github.com/repos/codehagen/badget";
 
     const [repoResponse, commitsResponse] = await Promise.all([
       fetch(repoUrl, {

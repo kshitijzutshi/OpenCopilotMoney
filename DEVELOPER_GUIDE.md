@@ -1,6 +1,6 @@
-# OpenCopilotMoney Developer Guide
+# Badget Developer Guide
 
-A comprehensive guide to understanding, navigating, and contributing to the OpenCopilotMoney codebase.
+A comprehensive guide to understanding, navigating, and contributing to the Badget codebase.
 
 ## Table of Contents
 
@@ -161,7 +161,7 @@ AppUser {
 
 ### 2. Family (Multi-Tenancy)
 
-Families are the **tenant boundary** in OpenCopilotMoney. All financial data belongs to a Family:
+Families are the **tenant boundary** in Badget. All financial data belongs to a Family:
 
 ```typescript
 Family {

@@ -1,6 +1,6 @@
-# OpenCopilotMoney Design System & Styling Guide
+"# Badget Design System & Styling Guide
 
-> A comprehensive guide to the design system, component patterns, and styling conventions used throughout the OpenCopilotMoney application.
+> A comprehensive guide to the design system, component patterns, and styling conventions used throughout the Badget application.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@
 ## 🎨 Core Design Principles
 
 ### Color System
-OpenCopilotMoney uses a sophisticated **OKLCH color space** with CSS custom properties for consistent theming across light and dark modes.
+Badget uses a sophisticated **OKLCH color space** with CSS custom properties for consistent theming across light and dark modes.
 
 #### Light Theme Colors
 ```css

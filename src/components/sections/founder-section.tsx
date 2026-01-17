@@ -22,7 +22,7 @@ export function FounderSection() {
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-border">
                   <BlurImage
                     src="/author.png"
-                    alt="Kshitij Zutshi - Founder & CEO"
+                    alt="Christer Hagen - Founder & CEO"
                     width={320}
                     height={320}
                     className="w-full h-full object-cover"
@@ -39,7 +39,7 @@ export function FounderSection() {
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   After struggling with traditional budgeting apps that
                   didn&apos;t work for families, I decided to build something
-                  better. OpenCopilotMoney combines AI-powered insights with
+                  better. Badget combines AI-powered insights with
                   family-focused design to make financial management intuitive
                   and collaborative.
                 </p>
@@ -61,13 +61,13 @@ export function FounderSection() {
                 </p>
                 <div className="flex justify-center gap-4 pt-4">
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://github.com/kshitijzutshi" target="_blank">
+                    <Link href="https://github.com/codehagen" target="_blank">
                       <Github className="w-4 h-4 mr-2" />
                       GitHub
                     </Link>
                   </Button>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://x.com/kshitijzutshi" target="_blank">
+                    <Link href="https://x.com/codehagen" target="_blank">
                       <Twitter className="w-4 h-4 mr-2" />
                       Twitter
                     </Link>

@@ -1,19 +1,19 @@
-<a href="https://opencopilotmoney.tech">
-  <h1 align="center">OpenCopilotMoney: AI-Powered Financial Management Platform</h1>
+<a href="https://badget-eight-gilt.vercel.app/">
+  <h1 align="center">Badget: AI-Powered Financial Management Platform</h1>
 </a>
 
- <img width="1440" alt="dashboard_mockup" src="https://github.com/kshitijzutshi/OpenCopilotMoney/assets/24507211/2c2b8e43-3d18-4b28-b8d0-5dc0cbdb530f">
+ <img width="1440" alt="dashboard_mockup" src="https://github.com/projectx-codehagen/Badget/assets/24507211/2c2b8e43-3d18-4b28-b8d0-5dc0cbdb530f">
 
 <p align="center">
-  Ushering in a new era of financial management with cutting-edge AI. OpenCopilotMoney redefines how you track, analyze, and optimize your finances, ensuring smarter, more secure financial decisions. 
+  Ushering in a new era of financial management with cutting-edge AI. Badget redefines how you track, analyze, and optimize your finances, ensuring smarter, more secure financial decisions. 
 </p>
 
 <p align="center">
-  <!-- <a href="https://twitter.com/kshitijzutshi">
-    <img src="https://img.shields.io/twitter/follow/opencopilotmoney?style=flat&label=%40kshitijzutshi&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
+  <!-- <a href="https://twitter.com/placeholder">
+    <img src="https://img.shields.io/twitter/follow/badget?style=flat&label=%40badgety&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
   </a> -->
-  <a href="https://github.com/kshitijzutshi/OpenCopilotMoney/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/github/license/kshitijzutshi/OpenCopilotMoney?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
+  <a href="https://github.com/projectx-codehagen/Badget/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/github/license/projectx-codehagen/Badget?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@
 
 ## Introduction
 
-Welcome to OpenCopilotMoney, the "Copilot for Money" - an AI-powered financial management platform that provides unparalleled insights into your spending habits and financial patterns. Built with a family-first design, OpenCopilotMoney empowers households to budget better, track expenses effortlessly, and achieve their financial goals through intelligent automation and real-time insights.
+Welcome to Badget, the "Copilot for Money" - an AI-powered financial management platform that provides unparalleled insights into your spending habits and financial patterns. Built with a family-first design, Badget empowers households to budget better, track expenses effortlessly, and achieve their financial goals through intelligent automation and real-time insights.
 
 **Key Features:**
 - **Unified Financial Dashboard** - All accounts in one place with smart categorization
@@ -42,7 +42,7 @@ Welcome to OpenCopilotMoney, the "Copilot for Money" - an AI-powered financial m
 
 ## Architecture
 
-OpenCopilotMoney implements a **dual-layer architecture** with clean separation between authentication and business logic:
+Badget implements a **dual-layer architecture** with clean separation between authentication and business logic:
 
 ### Authentication Layer
 - User identity and session management via **Better-auth**  
@@ -63,7 +63,7 @@ All seamlessly integrated to accelerate financial management innovation.
 
 ## Directory Structure
 
-OpenCopilotMoney follows a clean, scalable architecture:
+Badget follows a clean, scalable architecture:
 
     .
     ├── src                          # Main project lives here
@@ -86,7 +86,7 @@ OpenCopilotMoney follows a clean, scalable architecture:
 Clone & create this repo locally with the following command:
 
 ```bash
-git clone https://github.com/kshitijzutshi/OpenCopilotMoney
+git clone https://github.com/codehagen/Badget
 ```
 
 1. Install dependencies using pnpm:
@@ -166,11 +166,11 @@ Download and install from [postgresql.org](https://www.postgresql.org/download/w
 ### Step 2: Create the Database
 
 ```bash
-# Create the opencopilotmoney database
-createdb opencopilotmoney
+# Create the badget database
+createdb badget
 
 # Or using psql
-psql -c "CREATE DATABASE opencopilotmoney;"
+psql -c "CREATE DATABASE badget;"
 ```
 
 ### Step 3: Configure Environment
@@ -179,7 +179,7 @@ Create a `.env` file (Prisma reads from `.env`, not `.env.local`):
 
 ```bash
 # Database - Local PostgreSQL (include your username)
-DATABASE_URL="postgresql://YOUR_USERNAME@localhost:5432/opencopilotmoney"
+DATABASE_URL="postgresql://YOUR_USERNAME@localhost:5432/badget"
 
 # Application URL
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
@@ -234,7 +234,7 @@ For local testing, both authentication and the waitlist are bypassed:
 ### Troubleshooting
 
 **"Error: P1010: User was denied access"**
-- Ensure your `DATABASE_URL` includes your username: `postgresql://yourusername@localhost:5432/opencopilotmoney`
+- Ensure your `DATABASE_URL` includes your username: `postgresql://yourusername@localhost:5432/badget`
 
 **"psql: command not found"**
 - PostgreSQL is not installed or not in PATH. Install via Homebrew/apt or add to PATH.

@@ -31,7 +31,7 @@ export default function OpenStartupPage() {
       <GitHubStatsSection />
 
       <section className="w-full max-w-4xl space-y-4">
-        <h2 className="text-xl font-semibold text-center">Team OpenCopilotMoney</h2>
+        <h2 className="text-xl font-semibold text-center">Team Badget</h2>
         <Table>
           <TableHeader>
             <TableRow>
@@ -44,7 +44,7 @@ export default function OpenStartupPage() {
           </TableHeader>
           <TableBody>
             <TableRow>
-              <TableCell>Kshitij Zutshi</TableCell>
+              <TableCell>Christer Hagen</TableCell>
               <TableCell className="text-center">Founder</TableCell>
               <TableCell className="text-center">Jun 19th, 2025</TableCell>
               <TableCell className="text-center">Norway</TableCell>

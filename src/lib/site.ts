@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "OpenCopilotMoney",
-  url: "https://opencopilotmoney.tech",
+  name: "Badget",
+  url: "https://badget.tech",
   description:
     "AI-powered personal finance app that turns raw transactions into real-time spending insights, predictive budgets & holistic financial health scores.",
   links: {
-    twitter: "https://x.com/kshitijzutshi",
-    github: "https://github.com/kshitijzutshi/OpenCopilotMoney",
+    twitter: "https://x.com/codehagen",
+    github: "https://github.com/codehagen/badget",
   },
 };
 

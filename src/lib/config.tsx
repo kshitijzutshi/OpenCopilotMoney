@@ -29,7 +29,7 @@ export const Highlight = ({
 export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
-  name: "Badget",
+  name: "OpenCopilotMoney",
   description:
     "AI-powered personal finance app that turns raw transactions into real-time spending insights, predictive budgets & holistic financial health scores.",
   cta: "Get Started",
@@ -45,11 +45,11 @@ export const siteConfig = {
     "Expense Insights",
   ],
   links: {
-    email: "support@badget.tech",
-    twitter: "https://tx.com/codehagen",
+    email: "support@opencopilotmoney.tech",
+    twitter: "https://tx.com/kshitijzutshi",
     discord: "https://discord.gg/TK7k6uY4",
-    github: "https://github.com/codehagen",
-    instagram: "https://instagram.com/codehagen",
+    github: "https://github.com/kshitijzutshi",
+    instagram: "https://instagram.com/kshitijzutshi",
   },
   nav: {
     links: [
@@ -77,7 +77,7 @@ export const siteConfig = {
     badge: "AI-powered financial insights",
     title: "Master Your Money With AI",
     description:
-      "Badget turns raw transactions into real-time spending insights, predictive budgets, and a holistic financial health score. Spend smarter, save faster.",
+      "OpenCopilotMoney turns raw transactions into real-time spending insights, predictive budgets, and a holistic financial health score. Spend smarter, save faster.",
     cta: {
       primary: {
         // TODO: Change back to "/waitlist" when ready for production
@@ -294,7 +294,7 @@ export const siteConfig = {
   featureSection: {
     title: "Simple. Smart. Secure.",
     description:
-      "Discover how Badget transforms your financial data into actionable insights in four easy steps",
+      "Discover how OpenCopilotMoney transforms your financial data into actionable insights in four easy steps",
     items: [
       {
         id: 1,
@@ -629,7 +629,7 @@ export const siteConfig = {
     },
     secondaryButton: {
       text: "Talk to Founder",
-      href: "https://x.com/codehagen",
+      href: "https://x.com/kshitijzutshi",
     },
   },
   pricing: {
@@ -705,7 +705,7 @@ export const siteConfig = {
       img: "https://randomuser.me/api/portraits/men/91.jpg",
       description: (
         <p>
-          Badget&apos;s AI-driven spending analysis has transformed how I help
+          OpenCopilotMoney&apos;s AI-driven spending analysis has transformed how I help
           clients manage their finances.
           <Highlight>
             Insights are now more accurate and actionable than ever.
@@ -717,11 +717,11 @@ export const siteConfig = {
     {
       id: "2",
       name: "Samantha Lee",
-      role: "Working Mom & Badget User",
+      role: "Working Mom & OpenCopilotMoney User",
       img: "https://randomuser.me/api/portraits/women/12.jpg",
       description: (
         <p>
-          Using Badget&apos;s predictive budgeting has completely changed our
+          Using OpenCopilotMoney&apos;s predictive budgeting has completely changed our
           family&apos;s financial planning.
           <Highlight>We&apos;re saving 40% more each month!</Highlight> Highly
           recommend to any family wanting financial clarity.
@@ -736,7 +736,7 @@ export const siteConfig = {
       description: (
         <p>
           As a business owner, I need to track both personal and business
-          expenses. Badget&apos;s AI categorization does this perfectly.
+          expenses. OpenCopilotMoney&apos;s AI categorization does this perfectly.
           <Highlight>My financial organization has doubled.</Highlight>{" "}
           Essential tool for entrepreneurs.
         </p>
@@ -902,43 +902,43 @@ export const siteConfig = {
   faqSection: {
     title: "Frequently Asked Questions",
     description:
-      "Answers to common questions about Badget and its features. If you have any other questions, please don't hesitate to contact us.",
+      "Answers to common questions about OpenCopilotMoney and its features. If you have any other questions, please don't hesitate to contact us.",
     faQitems: [
       {
         id: 1,
-        question: "What is Badget?",
+        question: "What is OpenCopilotMoney?",
         answer:
-          "Badget is an AI-powered personal finance app that transforms your raw transaction data into actionable insights. It creates predictive budgets, tracks spending patterns, and provides a comprehensive financial health score to help you make smarter money decisions.",
+          "OpenCopilotMoney is an AI-powered personal finance app that transforms your raw transaction data into actionable insights. It creates predictive budgets, tracks spending patterns, and provides a comprehensive financial health score to help you make smarter money decisions.",
       },
       {
         id: 2,
-        question: "How does Badget analyze my spending?",
+        question: "How does OpenCopilotMoney analyze my spending?",
         answer:
-          "Badget uses advanced AI algorithms to categorize your transactions, identify spending patterns, detect unusual purchases, and predict future cash flow. It learns from your financial behavior to provide increasingly personalized insights and recommendations.",
+          "OpenCopilotMoney uses advanced AI algorithms to categorize your transactions, identify spending patterns, detect unusual purchases, and predict future cash flow. It learns from your financial behavior to provide increasingly personalized insights and recommendations.",
       },
       {
         id: 3,
         question: "Is my financial data secure?",
         answer:
-          "Yes, Badget uses bank-grade encryption and security measures that meet or exceed industry standards. We employ end-to-end encryption, secure data centers, and never store your banking credentials. Your data is protected with the same level of security used by major financial institutions.",
+          "Yes, OpenCopilotMoney uses bank-grade encryption and security measures that meet or exceed industry standards. We employ end-to-end encryption, secure data centers, and never store your banking credentials. Your data is protected with the same level of security used by major financial institutions.",
       },
       {
         id: 4,
         question: "Which banks and accounts can I connect?",
         answer:
-          "Badget supports connections to over 10,000 financial institutions including major banks, credit unions, credit cards, investment accounts, and crypto wallets. We use secure API connections that never require sharing your login credentials.",
+          "OpenCopilotMoney supports connections to over 10,000 financial institutions including major banks, credit unions, credit cards, investment accounts, and crypto wallets. We use secure API connections that never require sharing your login credentials.",
       },
       {
         id: 5,
         question: "Is there a free version available?",
         answer:
-          "Yes, Badget offers a free tier that includes basic spending insights, simple budget tracking, and monthly financial health scores. You can connect up to 2 accounts and access core features without any cost.",
+          "Yes, OpenCopilotMoney offers a free tier that includes basic spending insights, simple budget tracking, and monthly financial health scores. You can connect up to 2 accounts and access core features without any cost.",
       },
       {
         id: 6,
-        question: "How does Badget help me save money?",
+        question: "How does OpenCopilotMoney help me save money?",
         answer:
-          "Badget identifies spending patterns, suggests budget optimizations, alerts you to unusual expenses, and provides predictive insights about your financial future. Many users save 20-30% more each month by following Badget's AI-powered recommendations.",
+          "OpenCopilotMoney identifies spending patterns, suggests budget optimizations, alerts you to unusual expenses, and provides predictive insights about your financial future. Many users save 20-30% more each month by following OpenCopilotMoney's AI-powered recommendations.",
       },
     ],
   },
